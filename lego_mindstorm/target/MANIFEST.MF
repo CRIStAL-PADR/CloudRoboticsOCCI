@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: lego_mindstorm;singleton:=true
+Export-Package: lego_mindstorm,lego_mindstorm.impl,lego_mindstorm.util
+Bundle-Name: %pluginName
+Bundle-Version: 0.1.0
+Bundle-ClassPath: .
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.emf.ecore;visibil
+ ity:=reexport,org.occiware.clouddesigner.occi;visibility:=reexport,or
+ g.occiware.clouddesigner.occi.emfgen.ui
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+

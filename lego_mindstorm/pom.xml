@@ -3,10 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Clouddesigner</groupId>
-  <artifactId>lego_mindstorm.connector</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-  <name>lego_mindstorm.connector</name>
-  <description>occiware connector for legomindstorm</description>
+  <artifactId>lego_mindstorm</artifactId>
+  <version>0.1.0</version>
   <packaging>eclipse-plugin</packaging>
   <properties>
     <tycho-version>0.22.0</tycho-version>
@@ -61,7 +59,7 @@
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <sourceDirectory>${project.basedir}/src/main</sourceDirectory>
+    <sourceDirectory>${project.basedir}/src-gen</sourceDirectory>
     <scriptSourceDirectory>${project.basedir}/src/scripts</scriptSourceDirectory>
     <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
     <outputDirectory>${project.basedir}/target/classes</outputDirectory>
@@ -77,7 +75,7 @@
       </testResource>
     </testResources>
     <directory>${project.basedir}/target</directory>
-    <finalName>lego_mindstorm.connector</finalName>
+    <finalName>lego_mindstorm</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -202,6 +200,27 @@
               <goal>package-plugin</goal>
             </goals>
           </execution>
+          <execution>
+            <id>default-build-qualifier</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>build-qualifier</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>default-validate-id</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>validate-id</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>default-validate-version</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>validate-version</goal>
+            </goals>
+          </execution>
         </executions>
       </plugin>
       <plugin>
@@ -229,6 +248,15 @@
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-compiler-plugin</artifactId>
         <version>0.22.0</version>
+        <executions>
+          <execution>
+            <id>default-compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
         <artifactId>maven-install-plugin</artifactId>

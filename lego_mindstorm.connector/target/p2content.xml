@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='lego_mindstorm.connector' version='0.1.0.201701191148'>
+    <update id='lego_mindstorm.connector' range='[0.0.0,0.1.0.201701191148)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='lego_mindstorm.connector'/>
+      <property name='org.eclipse.equinox.p2.provider' value='OCCIware'/>
+      <property name='maven-groupId' value='Clouddesigner'/>
+      <property name='maven-artifactId' value='lego_mindstorm.connector'/>
+      <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='lego_mindstorm.connector' version='0.1.0.201701191148'/>
+      <provided namespace='osgi.bundle' name='lego_mindstorm.connector' version='0.1.0.201701191148'/>
+      <provided namespace='java.package' name='lego_mindstorm.connector' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='org.slf4j.api' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.occiware.clouddesigner.occi' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='lego_mindstorm' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='lego_mindstorm.connector' version='0.1.0.201701191148'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: lego_mindstorm.connector;singleton:=true&#xA;Bundle-Version: 0.1.0.201701191148&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -127,6 +127,7 @@ public class Ar_droneConnector extends ar_drone.impl.Ar_droneImpl
 	public void land()
 	{
 		LOGGER.debug("Action land() called on " + this);
+		drone.land();
 
 		// TODO: Implement how to land this ar_drone.
 	}
@@ -141,6 +142,7 @@ public class Ar_droneConnector extends ar_drone.impl.Ar_droneImpl
 	public void take_off()
 	{
 		LOGGER.debug("Action take_off() called on " + this);
+		drone.takeOff();
 
 		// TODO: Implement how to take_off this ar_drone.
 	}

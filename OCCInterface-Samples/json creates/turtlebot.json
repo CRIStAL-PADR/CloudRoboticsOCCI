@@ -1,0 +1,11 @@
+{
+	"id": "urn:uuid:d99486b7-0632-482d-a184-a9195733ddd5",
+	"title": "robot vehicule turtlebot",
+	"summary": "First turtlebot story",
+	"kind": "http://occiware.org/turtlebot#turtlebot",
+	"attributes": {
+		"user" : "turtlebot",
+		"ip_address" : "192.168.137.212",
+		"password" : "turtlebot"
+	}
+}

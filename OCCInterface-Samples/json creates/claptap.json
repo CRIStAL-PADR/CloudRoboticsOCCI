@@ -1,0 +1,10 @@
+{
+  "id": "urn:uuid:d99486b7-0632-482d-a184-a9195733ddd4",
+  "title": "robot vehicule claptap",
+  "summary": "First robot claptap story",
+  "kind": "http://occiware.org/lego_mindstorm#lego_mindstom_ntx2",
+  "attributes": {
+    "name" : "ClapTrap",
+    "mac_address" : "00:16:53:10:10:C3"
+  }
+}

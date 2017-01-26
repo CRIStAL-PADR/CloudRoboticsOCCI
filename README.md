@@ -5,7 +5,6 @@ CloudRoboticsOCCI
 Prototype of cloud platform for robots as a services.
 -----------------------------------------------------
 
-----------
 
 Ce repository contient les projets Eclipse OCCIware pour contrôler un Lego mindstorm "basic" (une voiturette), un Lego mindstorm de type "Robogator" , un Turtle bot, ainsi qu'un Ardrone 1.
 
@@ -13,7 +12,7 @@ Ce repository contient les projets Eclipse OCCIware pour contrôler un Lego mind
 
 L'ensemble de ce projet regroupe donc les projets à importer sous l'Eclipse d'OCCIware, tel que les extensions ainsi que les connecteurs de chacun des projets.
 
-**/!\ Attention : ** La partie de l**'ARdrone** n'as pas été correctement testé suite à des soucis technique **/!\\**
+**/!\ Attention** : La partie de l'**ARdrone** n'as pas été correctement testé suite à des soucis technique **/!\\**
 
 Les drivers pour Legomindstorm ainsi que Turtlebot sont directement dans le dossier **lib** de leurs **connecteurs** respectif.
 

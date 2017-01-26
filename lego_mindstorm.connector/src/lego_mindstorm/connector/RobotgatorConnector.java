@@ -54,7 +54,7 @@ public class RobotgatorConnector extends lego_mindstorm.impl.RobotgatorImpl
 	{
 		LOGGER.debug("occiCreate() called on " + this);
 
-		mindstormBasic.occiCreate("Robogator", "00:16:53:13:1B:B0");
+		mindstormBasic.occiCreate(this.getName(), this.getMac_address());
 		//default duration
 		this.setDuration(1000);
 		//default angle

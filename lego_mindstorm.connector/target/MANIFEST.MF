@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: lego_mindstorm.connector;singleton:=true
+Export-Package: lego_mindstorm.connector
+Bundle-Name: lego_mindstorm.connector
+Bundle-Version: 0.1.0.201701191148
+Bundle-ClassPath: .,lib/LegoMindstorm2_fat (1).jar
+Require-Bundle: org.slf4j.api,org.occiware.clouddesigner.occi,lego_min
+ dstorm
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: OCCIware
+

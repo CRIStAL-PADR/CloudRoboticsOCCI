@@ -54,7 +54,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 	{
 		LOGGER.debug("occiCreate() called on " + this);
 
-		mindstormBasic.occiCreate("ClapTrap", "00:16:53:10:10:C3");
+		mindstormBasic.occiCreate(this.getName(), this.getMac_address());
 		//default duration
 		this.setDuration(1000);
 		//default angle

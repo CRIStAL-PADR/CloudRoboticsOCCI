@@ -10,7 +10,7 @@
 		<relativePath>../../../ecore/clouddesigner/org.occiware.clouddesigner.parent/pom.xml</relativePath>
 	</parent>
 	<groupId>Clouddesigner</groupId>
-	<artifactId>turtlebot.connector</artifactId>
+	<artifactId>turtlebot</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>eclipse-plugin</packaging>
 	<name>turtlebot</name>
